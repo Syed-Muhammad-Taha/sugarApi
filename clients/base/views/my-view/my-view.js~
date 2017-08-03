@@ -1,4 +1,4 @@
-console.log("Hello");({
+({
     className: 'tcenter',
     loadData: function (options) {
         //populate your data
