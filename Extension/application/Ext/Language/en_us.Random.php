@@ -13,6 +13,8 @@
 $app_list_strings['moduleList']['ran_StyleGuide'] = 'StyleGuides';
 $app_list_strings['moduleList']['ran_Student'] = 'Students';
 $app_list_strings['moduleList']['ran_Teacher'] = 'Teachers';
+$app_list_strings['moduleList']['ran_Course'] = 'Courses';
 $app_list_strings['moduleListSingular']['ran_StyleGuide'] = 'StyleGuide';
 $app_list_strings['moduleListSingular']['ran_Student'] = 'Student';
 $app_list_strings['moduleListSingular']['ran_Teacher'] = 'Teacher';
+$app_list_strings['moduleListSingular']['ran_Course'] = 'Course';
