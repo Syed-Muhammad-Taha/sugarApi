@@ -8,6 +8,12 @@
 $beanList['ran_StyleGuide'] = 'ran_StyleGuide';
 $beanFiles['ran_StyleGuide'] = 'modules/ran_StyleGuide/ran_StyleGuide.php';
 $moduleList[] = 'ran_StyleGuide';
+$beanList['ran_Student'] = 'ran_Student';
+$beanFiles['ran_Student'] = 'modules/ran_Student/ran_Student.php';
+$moduleList[] = 'ran_Student';
+$beanList['ran_Teacher'] = 'ran_Teacher';
+$beanFiles['ran_Teacher'] = 'modules/ran_Teacher/ran_Teacher.php';
+$moduleList[] = 'ran_Teacher';
 
 
 ?>

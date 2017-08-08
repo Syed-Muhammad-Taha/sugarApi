@@ -31,9 +31,9 @@ $manifest = array (
   'icon' => '',
   'is_uninstallable' => true,
   'name' => 'Random',
-  'published_date' => '2017-08-03 14:44:59',
+  'published_date' => '2017-08-08 06:10:15',
   'type' => 'module',
-  'version' => 1501771499,
+  'version' => 1502172616,
   'remove_tables' => 'prompt',
 );
 
@@ -47,6 +47,20 @@ $installdefs = array (
       'module' => 'ran_StyleGuide',
       'class' => 'ran_StyleGuide',
       'path' => 'modules/ran_StyleGuide/ran_StyleGuide.php',
+      'tab' => true,
+    ),
+    1 => 
+    array (
+      'module' => 'ran_Student',
+      'class' => 'ran_Student',
+      'path' => 'modules/ran_Student/ran_Student.php',
+      'tab' => true,
+    ),
+    2 => 
+    array (
+      'module' => 'ran_Teacher',
+      'class' => 'ran_Teacher',
+      'path' => 'modules/ran_Teacher/ran_Teacher.php',
       'tab' => true,
     ),
   ),
@@ -63,6 +77,16 @@ $installdefs = array (
     array (
       'from' => '<basepath>/SugarModules/modules/ran_StyleGuide',
       'to' => 'modules/ran_StyleGuide',
+    ),
+    1 => 
+    array (
+      'from' => '<basepath>/SugarModules/modules/ran_Student',
+      'to' => 'modules/ran_Student',
+    ),
+    2 => 
+    array (
+      'from' => '<basepath>/SugarModules/modules/ran_Teacher',
+      'to' => 'modules/ran_Teacher',
     ),
   ),
   'language' => 
